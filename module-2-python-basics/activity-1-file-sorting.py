@@ -1,7 +1,7 @@
 """
 Module 2 — Activity: File Sorting with os and shutil
-Student: [your name]
-Date: [date]
+Student: Javier, Arthur
+Date: 10/1/2026
 
 ============================================
 WHAT DID YOU BUILD? (explain in your own words)
@@ -14,12 +14,10 @@ sort the files? e.g. by extension, by name, by date, etc.]
 ============================================
 KEY VOCABULARY
 ============================================
-- os module:
-- shutil module:
-- file path:
-- directory:
-(add more as needed)
-
+- os module: The os module helps Python to work with files and folders sa computer.
+- shutil module: The shutil module is used for moving or copying files. Ginamit ko siya
+- file path: File path tells Python kung saan located yung file or folder.
+- directory: Directory is basically a folder where files are stored.
 
 ============================================
 YOUR SCRIPT
