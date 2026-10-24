@@ -11,6 +11,7 @@ def get_pokemon_data(pokemon_id):
                 "name": data["name"].lower(),
                 "height": data["height"],
                 "weight": data["weight"],
+                "abilities": data["abilities"][0]["ability"]["name"],
             }
         else:
             print(f"Error: Server responded with status code {response.status_code}")
@@ -31,6 +32,7 @@ def main():
     print("--- Guess the Pokémon! ---")
     print(f"Height: {pokemon['height']}")
     print(f"Weight: {pokemon['weight']}")
+    print(f"Ability: {pokemon['abilities']}")
     print("Choices: bulbasaur, ivysaur, venusaur, charmander, charmeleon")
 
     max_attempts = 3
